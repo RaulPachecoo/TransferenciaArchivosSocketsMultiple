@@ -1,0 +1,14 @@
+El modelo TCP/IP es una descripción de protocolos de red desarrollado por Vinton Cerf y Robert E. Kahn, en la década de 1970. Fue implantado en la red ARPANET, la primera red de área amplia (WAN), desarrollada por encargo de DARPA, una agencia del Departamento de Defensa de los Estados Unidos, y predecesora de Internet.
+
+A veces se denomina como Internet Model, “modelo DoD” o “modelo DARPA”.
+
+El modelo TCP/IP describe un conjunto de guías generales de diseño e implementación de protocolos de red específicos para permitir que un equipo pueda comunicarse en una red. TCP/IP provee conectividad de extremo a extremo especificando como los datos deberían ser formateados, direccionados, transmitidos, enrutados y recibidos por el destinatario. El modelo TCP/IP y los protocolos relacionados son mantenidos por la Internet Engineering Task Force (IETF).
+
+Para conseguir un intercambio fiable de datos entre dos equipos, se deben llevar a cabo muchos procedimientos separados. El resultado es que el software de comunicaciones es complejo. Con un modelo en capas o niveles resulta más sencillo agrupar funciones relacionadas e implementar el software modular de comunicaciones.
+
+Las capas están jerarquizadas. Cada capa se construye sobre su predecesora. El número de capas y, en cada una de ellas, sus servicios y funciones son variables con cada tipo de red. Sin embargo, en cualquier red, la misión de cada capa es proveer servicios a las capas superiores haciéndoles transparentes el modo en que esos servicios se llevan a cabo. De esta manera, cada capa debe ocuparse exclusivamente de su nivel inmediatamente inferior, a quien solicita servicios, y del nivel inmediatamente superior, a quien devuelve resultados.
+
+Capa 4 o capa de aplicación: aplicación, asimilable a las capas: 5 (sesión), 6 (presentación) y 7 (aplicación), del modelo OSI. La capa de aplicación debía incluir los detalles de las capas de sesión y presentación OSI. Crearon una capa de aplicación que maneja aspectos de representación, codificación y control de diálogo.
+Capa 3 o capa de transporte: transporte, asimilable a la capa 4 (transporte) del modelo OSI.
+Capa 2 o capa de internet: Internet, asimilable a la capa 3 (red) del modelo OSI.
+Capa 1 o capa de acceso al medio: acceso al medio, asimilable a la capa 2 (enlace de datos) y a la capa 1 (física) del modelo OSI.
